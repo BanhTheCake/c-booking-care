@@ -1,0 +1,66 @@
+.homeSystem {
+    min-height: 100vh;
+    .homeSystem-header {
+        background: #3498db;
+        .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 42px;
+            .homeSystem-header__language {
+                display: flex;
+                align-items: center;
+                color: white;
+                height: 100%;
+                & > p {
+                    font-size: 1.4rem;
+                    padding-right: 1rem;
+                    line-height: 2rem;
+                    font-weight: 450;
+                    display: flex;
+                    align-items: center;
+                    & > span {
+                        padding-left: 0.4rem;
+                        display: inline-block;
+                        max-width: 250px;
+                        text-overflow: ellipsis;
+                        white-space: nowrap;
+                        overflow: hidden;
+                    }
+                }
+                .language {
+                    margin-right: 0.4rem;
+                    height: 100%;
+                    & > span {
+                        display: inline-flex;
+                        font-size: 1.4rem;
+                        line-height: 2rem;
+                        font-weight: 600;
+                        padding: 1rem 0.6rem;
+                        cursor: pointer;
+                        transition: all 0.15s ease;
+                        height: 100%;
+                        align-items: center;
+                        &.active {
+                            color: #34495e;
+                        }
+                        &:hover {
+                            opacity: 0.8;
+                        }
+                    }
+                }
+                .icon {
+                    display: flex;
+                    align-items: center;
+                    padding: 0 0.8rem;
+                    cursor: pointer;
+                    transition: all 0.15s ease;
+                    height: 100%;
+                    &:hover {
+                        opacity: 0.8;
+                    }
+                }
+            }
+        }
+    }
+}

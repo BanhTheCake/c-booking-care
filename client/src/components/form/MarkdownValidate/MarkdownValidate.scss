@@ -1,0 +1,16 @@
+.MarkdownValidate-container {
+    padding: 0.6rem 1rem;
+    .MarkdownValidate-label {
+        display: block;
+        font-size: 1.6rem;
+        font-weight: 500;
+        padding-bottom: 0.8rem;
+        display: flex;
+        align-items: flex-end;
+    }
+    .MarkdownValidate__errors {
+        font-weight: 500;
+        color: #d63031;
+        padding-left: 1rem;
+    }
+}

@@ -1,0 +1,129 @@
+.ClinicDetails-container {
+    padding-top: 78px;
+    min-height: 100vh;
+    .ClinicDetails-info {
+        padding-bottom: 2rem;
+        .ClinicDetails-img {
+            position: relative;
+            width: 100%;
+            overflow: hidden;
+            &:before {
+                display: block;
+                content: "";
+                width: 100%;
+                padding-top: (9 / 35) * 100%;
+            }
+            > img {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+        }
+        .ClinicDetails-logo {
+            display: flex;
+            padding-top: 1.4rem;
+            .ClinicDetails-logo__img {
+                position: relative;
+                width: 120px;
+                overflow: hidden;
+                margin-right: 1.4rem;
+                border-radius: 50%;
+                &:before {
+                    display: block;
+                    content: "";
+                    width: 100%;
+                    padding-top: (1 / 1) * 100%;
+                }
+                > img {
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                }
+            }
+            .ClinicDetails-logo__title {
+                font-size: 1.6rem;
+                h3 {
+                    font-size: 2rem;
+                    font-weight: 500;
+                    letter-spacing: 0.02em;
+                    padding-bottom: 1rem;
+                }
+                .ClinicDetails-logo__address {
+                    display: flex;
+                    align-items: center;
+                    p {
+                        padding-left: 0.8rem;
+                    }
+                }
+            }
+        }
+    }
+    .ClinicDetails-doctors {
+        background-color: #dfe6e9;
+        padding: 1rem 0;
+        padding-bottom: 4rem;
+        .ClinicDetails-select {
+            width: 250px;
+            padding-bottom: 1rem;
+            .input-select-vertical {
+                padding-left: 0;
+            }
+        }
+        .ClinicDetails-list {
+            animation: fadeIn 0.5s linear;
+            .ClinicDetails-doctor {
+                background-color: white;
+                padding: 2rem;
+                display: flex;
+                border-radius: 10px;
+                box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+                min-height: 300px;
+                .ClinicDetails-doctor__left {
+                    flex: 1.2;
+                    border-right: 1px solid #ccc;
+                    padding-right: 1rem;
+                    & h3 {
+                        font-size: 2.2rem;
+                        margin-bottom: 0.6rem;
+                    }
+                    & p {
+                        font-size: 1.6rem;
+                    }
+                }
+                .ClinicDetails-doctor__right {
+                    flex: 1;
+                    padding-left: 2rem;
+                }
+                &:not(:last-child) {
+                    margin-bottom: 3rem;
+                }
+            }
+        }
+    }
+    .ClinicDetails-des {
+        background-color: #dfe6e9;
+        & .title {
+            font-size: 1.8rem;
+            font-weight: 500;
+            padding-bottom: 1rem;
+            color: #0984e3;
+        }
+        & .MDEditor {
+            background-color: transparent;
+        }
+    }
+}
+
+.ClinicDetails__loading {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

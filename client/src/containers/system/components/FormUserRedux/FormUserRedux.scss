@@ -1,0 +1,109 @@
+.userRedux-form__loading {
+    padding-top: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.userRedux-form {
+    display: flex;
+    flex-wrap: wrap;
+    .userRedux-form__left {
+        flex-shrink: 0;
+        width: 250px;
+        max-width: 100%;
+        margin-right: 2rem;
+        .userRedux-form__left-wrapper {
+            height: 300px;
+        }
+        .userRedux-form__left-btn {
+            padding-top: 1rem;
+            display: flex;
+            button {
+                font-family: inherit;
+                width: 250px;
+                max-width: 100%;
+                border: none;
+                padding: 1rem 1.6rem;
+                background-color: #0984e3;
+                color: white;
+                font-size: 1.6rem;
+                font-weight: 500;
+                border-radius: 4px;
+                cursor: pointer;
+                transition: all 0.15s ease;
+                &:hover {
+                    opacity: 0.8;
+                }
+                &:disabled {
+                    opacity: 0.6;
+                    cursor: not-allowed;
+                }
+            }
+        }
+    }
+    .userRedux-form__right {
+        flex: 1;
+        display: grid;
+        // grid-template-areas:
+        //     "email email email password password password"
+        //     "firstName firstName firstName lastName lastName lastName"
+        //     "address address address address address address"
+        //     "gender gender roleId roleId positionId positionId";
+        grid-template-columns: repeat(6, 1fr);
+        .col-2 {
+            grid-column: span 2;
+        }
+        .col-3 {
+            grid-column: span 3;
+        }
+        .col-6 {
+            grid-column: span 6;
+        }
+        // another way
+        .item-1 {
+            // grid-area: email;
+            // grid-column: 1 / span 3;
+            grid-column: span 3;
+        }
+        .item-2 {
+            // grid-area: password;
+            // grid-column: 4 / span 3;
+            grid-column: span 3;
+        }
+        .item-3 {
+            // grid-column: 1 / span 3;
+            // grid-area: firstName;
+            grid-column: span 2;
+        }
+        .item-4 {
+            // grid-column: 4 / span 3;
+            // grid-area: lastName;
+            grid-column: span 2;
+        }
+        .item-5 {
+            // grid-column: 1 / -1;
+            // grid-area: address;
+            grid-column: span 2;
+        }
+        .item-6 {
+            // grid-column: 1 / span 2;
+            // grid-area: gender;
+            grid-column: span 6;
+        }
+        .item-7 {
+            // grid-column: 3 / span 2;
+            // grid-area: roleId;
+            grid-column: span 2;
+        }
+        .item-8 {
+            // grid-column: 5 / span 2;
+            // grid-area: positionId;
+            grid-column: span 2;
+        }
+        .item-9 {
+            // grid-column: 5 / span 2;
+            // grid-area: positionId;
+            grid-column: span 2;
+        }
+    }
+}

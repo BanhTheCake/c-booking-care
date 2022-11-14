@@ -1,0 +1,119 @@
+.home__banner {
+    background: linear-gradient(
+            180deg,
+            rgba(15, 15, 15, 0.4) 0%,
+            rgba(255, 255, 255, 0) 40%,
+            rgba(255, 255, 255, 1) 100%
+        ),
+        url("../../../../assets//image/bookingcare-cover.jpg");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 80px;
+    .banner__content {
+        padding: 1rem 2rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .banner__title {
+            font-size: 3rem;
+            color: white;
+            text-shadow: 0.6px 0.6px rgb(0 0 0);
+            line-height: 3.6rem;
+            padding: 4rem 0rem 1rem;
+            font-weight: 500;
+            text-transform: uppercase;
+        }
+        .banner__sub {
+            font-size: 3rem;
+            font-weight: 600;
+            color: white;
+            text-shadow: 0.4px 0.4px rgb(0 0 0);
+            text-transform: uppercase;
+            padding-bottom: 4rem;
+            text-align: center;
+        }
+        .banner__input {
+            width: 450px;
+            max-width: 100%;
+            background-color: #f7d800;
+            display: flex;
+            align-items: center;
+            border-radius: 100px;
+            overflow: hidden;
+            margin-bottom: 20rem;
+            .icon {
+                width: 70px;
+                height: 40px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+            input {
+                width: 100%;
+                height: 46px;
+                outline: none;
+                background-color: transparent;
+                border: none;
+                font-family: inherit;
+                font-size: 1.6rem;
+                list-style: 2.6rem;
+                padding-right: 2rem;
+                text-overflow: ellipsis;
+                &::placeholder {
+                    text-transform: capitalize;
+                    color: rgba(15, 15, 15, 1);
+                }
+            }
+        }
+        .banner__menu {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            flex-wrap: wrap;
+            width: 100%;
+            margin-right: -2rem;
+            .banner__item {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                margin-right: 2rem;
+                width: 150px;
+                margin-top: 4rem;
+                cursor: pointer;
+                .img__wrapper {
+                    width: 54px;
+                    height: 54px;
+                    border-radius: 50%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    background-color: white;
+                    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+                    overflow: hidden;
+                    margin-bottom: 1rem;
+                    img {
+                        width: 36px;
+                        height: 36px;
+                        object-fit: contain;
+                    }
+                }
+                p {
+                    max-width: 90%;
+                    font-size: 1.6rem;
+                    font-weight: 600;
+                    text-align: center;
+                    transition: all 0.1s ease;
+                    text-transform: capitalize;
+                }
+                &:hover {
+                    p {
+                        color: #45c3d2;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,28 @@
+.ManageSpecialties-container {
+    padding: 2rem 0;
+    .ManageSpecialties-form {
+        .ManageSpecialties-item {
+            &.ManageSpecialties-file {
+                padding: 0.6rem 1rem;
+            }
+            .ManageSpecialties-btn {
+                display: flex;
+                outline: none;
+                border: none;
+                margin: 0.6rem 1rem;
+                padding: 0.8rem 1.8rem;
+                font-family: inherit;
+                font-size: 1.6rem;
+                border-radius: 4px;
+                font-weight: 500;
+                background-color: #0984e3;
+                color: white;
+                cursor: pointer;
+                transition: all 0.1s ease;
+                &:hover {
+                    opacity: 0.6;
+                }
+            }
+        }
+    }
+}

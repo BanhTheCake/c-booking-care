@@ -1,0 +1,51 @@
+.ModalEditUser-form {
+    display: flex;
+    max-height: 400px;
+    .ModalEditUser-form__left {
+        margin-right: 2rem;
+        width: 250px;
+        flex-shrink: 0;
+        .ModalEditUser-form__left-input {
+            height: 300px;
+        }
+        .userRedux-form__left-btn {
+            padding-top: 1rem;
+            display: flex;
+            button {
+                font-family: inherit;
+                width: 250px;
+                max-width: 100%;
+                border: none;
+                padding: 1rem 1.6rem;
+                background-color: #0984e3;
+                color: white;
+                font-size: 1.6rem;
+                font-weight: 500;
+                border-radius: 4px;
+                cursor: pointer;
+                transition: all 0.15s ease;
+                &:hover {
+                    opacity: 0.8;
+                }
+                &:disabled {
+                    opacity: 0.6;
+                    cursor: not-allowed;
+                }
+            }
+        }
+    }
+    .ModalEditUser-form__right {
+        flex: 1;
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        .col-2 {
+            grid-column: span 2;
+        }
+        .col-3 {
+            grid-column: span 3;
+        }
+        .col-6 {
+            grid-column: span 6;
+        }
+    }
+}

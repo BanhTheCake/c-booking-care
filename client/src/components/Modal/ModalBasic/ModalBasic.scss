@@ -1,0 +1,66 @@
+.ModalBasic-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 20;
+    .overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: black;
+        opacity: 0.4;
+    }
+    .ModalBasic-wrapper {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 1000px;
+        max-width: 100%;
+        background-color: white;
+        border-radius: 1rem;
+        padding: 5rem 2.6rem;
+        animation: FadeIn 0.2s ease;
+        max-height: 500px;
+        display: flex;
+        .ModalBasic-close {
+            position: absolute;
+            top: 1rem;
+            right: 1rem;
+            padding: 0.6rem;
+            cursor: pointer;
+            user-select: none;
+            transition: all 0.1s ease;
+            &:hover {
+                opacity: 0.6;
+            }
+        }
+        .ModalBasic-title {
+            position: absolute;
+            top: 0.8rem;
+            left: 1rem;
+            padding: 0.6rem;
+            cursor: pointer;
+            font-weight: 500;
+            user-select: none;
+            font-size: 1.6rem;
+        }
+        .ModalBasic-children {
+            overflow-y: auto;
+            flex: 1;
+        }
+    }
+}
+
+@keyframes FadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}

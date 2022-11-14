@@ -1,0 +1,90 @@
+.home__header {
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    .home__header-wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 2rem;
+        .header__logo {
+            display: flex;
+            align-items: center;
+            padding-right: 6rem;
+            flex-shrink: 0;
+            cursor: pointer;
+            img {
+                padding-left: 2rem;
+                height: 38px;
+            }
+        }
+        .header__menu {
+            flex: 1;
+            display: flex;
+            @media screen and (max-width: 1100px) {
+                display: none;
+            }
+            .menu-item {
+                padding-right: 2.6rem;
+                cursor: pointer;
+                transition: all 0.1s linear;
+                h5 {
+                    margin: 0;
+                    font-size: 1.4rem;
+                    font-weight: 600;
+                    line-height: 2.2rem;
+                    text-transform: capitalize;
+                }
+                p {
+                    font-size: 1.2rem;
+                }
+                &:hover {
+                    opacity: 0.5;
+                }
+            }
+        }
+        .header__support {
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+            flex-shrink: 0;
+            .support {
+                display: flex;
+                align-items: center;
+                padding-right: 2rem;
+                cursor: pointer;
+                span {
+                    display: block;
+                    font-size: 1.4rem;
+                    font-weight: 600;
+                    padding-left: 0.4rem;
+                    opacity: 0.8;
+                    text-transform: capitalize;
+                }
+            }
+            .change-language {
+                display: flex;
+                p {
+                    font-size: 1.4rem;
+                    cursor: pointer;
+                    transition: all 0.1s linear;
+                    padding-top: 1rem;
+                    padding-bottom: 1rem;
+                    &:not(:last-child) {
+                        padding-right: 1rem;
+                    }
+                    &:hover {
+                        opacity: 0.6;
+                    }
+                    &.active {
+                        font-weight: 600;
+                    }
+                }
+            }
+        }
+    }
+}

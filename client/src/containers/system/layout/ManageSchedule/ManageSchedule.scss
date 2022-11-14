@@ -1,0 +1,61 @@
+.Manage-schedule__container {
+    padding-top: 2rem;
+    .Manage-schedule__top {
+        display: flex;
+        align-items: flex-end;
+    }
+    .Manage-schedule__bottom {
+        padding: 1rem 1rem;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+        grid-column-gap: 1.6rem;
+        grid-row-gap: 1rem;
+        .Manage-schedule__hour {
+            padding: 0.8rem 1.4rem;
+            border: 1px solid rgba(0, 0, 0, 0.2);
+            border-radius: 4px;
+            margin-bottom: 0.6rem;
+            font-size: 1.6rem;
+            transition: all 0.1s ease;
+            cursor: pointer;
+            &:hover {
+                box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+            }
+            &.active {
+                background-color: #2e86de;
+                color: white;
+            }
+        }
+    }
+    .Manage-schedule__btn {
+        padding: 1rem 1rem;
+        button {
+            border: none;
+            outline: none;
+            padding: 0.6rem 1.2rem;
+            font-family: inherit;
+            font-weight: 500;
+            font-size: 1.6rem;
+            background-color: #0984e3;
+            border-radius: 4px;
+            color: white;
+            cursor: pointer;
+            transition: all 0.1s ease;
+            user-select: none;
+            &:hover {
+                opacity: 0.8;
+            }
+            &:disabled {
+                opacity: 0.8;
+                cursor: not-allowed;
+            }
+        }
+    }
+}
+
+.Manage-schedule__loading {
+    padding-top: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

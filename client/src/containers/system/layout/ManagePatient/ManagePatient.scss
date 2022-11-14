@@ -1,0 +1,64 @@
+.ManagePatient {
+    padding-top: 2rem;
+    & h2 {
+        text-align: center;
+        font-weight: 500;
+        font-size: 2.4rem;
+        padding-bottom: 1rem;
+    }
+    .ManagePatient-date {
+        width: 300px;
+    }
+    .ManagePatient-table {
+        padding-top: 2rem;
+    }
+    .ManagePatient-col-btn {
+        outline: none;
+        border: none;
+        padding: 1rem 1.6rem;
+        cursor: pointer;
+        background-color: #2ecc71;
+        font-weight: 500;
+        color: white;
+        font-family: inherit;
+        border-radius: 4px;
+        transition: all 0.1s linear;
+        user-select: none;
+        &:hover {
+            opacity: 0.8;
+        }
+    }
+    .ModalBasic-wrapper {
+        width: 400px !important;
+    }
+
+    .ManagePatient-form {
+        .ManagePatient-form__btnGroup {
+            padding: 0rem 1rem;
+            padding-top: 1rem;
+            display: flex;
+            justify-content: space-between;
+            .ManagePatient-form__btn {
+                width: 48%;
+                border: none;
+                padding: 1rem;
+                border-radius: 4px;
+                font-family: inherit;
+                font-weight: 500;
+                font-size: 1.6rem;
+                color: white;
+                cursor: pointer;
+                transition: all 0.1s linear;
+                &:hover {
+                    opacity: 0.8;
+                }
+                &.access {
+                    background-color: #2ecc71;
+                }
+                &.cancel {
+                    background-color: tomato;
+                }
+            }
+        }
+    }
+}

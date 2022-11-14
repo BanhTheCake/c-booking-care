@@ -1,0 +1,58 @@
+.DoctorScheduleHour__container {
+    font-size: 1.6rem;
+    .DoctorScheduleHour__calendar-icon {
+        padding-top: 0.8rem;
+        display: flex;
+        align-items: center;
+        & > p {
+            font-weight: 500;
+            font-size: 1.8rem;
+            text-transform: capitalize;
+        }
+        .DoctorScheduleHour__icon {
+            display: flex;
+            padding-right: 0.4rem;
+        }
+    }
+    .DoctorScheduleHour__content {
+        display: flex;
+        padding-top: 1.4rem;
+        &.column {
+            flex-direction: column;
+            .DoctorScheduleHour__content-left {
+                flex: 1;
+                padding-right: 1rem;
+                padding-bottom: 0.6rem;
+                border-bottom: 1px solid #ccc;
+                margin-bottom: 1rem;
+            }
+            .DoctorScheduleHour__content-right {
+                flex: 1;
+            }
+        }
+        &.row {
+            .DoctorScheduleHour__content-left {
+                flex: 1;
+                padding-right: 4rem;
+            }
+            .DoctorScheduleHour__content-right {
+                flex: 1;
+                padding: 0 2rem;
+                border-left: 1px solid #ccc;
+            }
+        }
+    }
+}
+
+.DoctorScheduleHour__container-skeleton {
+    padding-top: 1rem;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}

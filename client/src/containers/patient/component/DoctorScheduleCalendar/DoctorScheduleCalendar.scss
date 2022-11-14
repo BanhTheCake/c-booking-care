@@ -1,0 +1,34 @@
+.DoctorScheduleCalendar__content {
+    .DoctorScheduleCalendar__wrapper {
+        animation: fadeIn 0.5s ease forwards;
+        .DoctorScheduleCalendar__hourList {
+            display: grid;
+            grid-gap: 1rem;
+            grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+            .DoctorScheduleCalendar__hourItem {
+                width: 100%;
+                padding: 1rem 1rem;
+                background-color: #f9ca24;
+                font-weight: 600;
+                text-align: center;
+                cursor: pointer;
+                transition: all 0.2s ease;
+                user-select: none;
+                &:hover {
+                    transform: translateY(-1px);
+                    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+                }
+            }
+        }
+        .DoctorScheduleCalendar__guide {
+            padding: 1.2rem 0;
+            font-weight: 500;
+            font-size: 1.5rem;
+        }
+        .DoctorScheduleCalendar__warning {
+            font-weight: 500;
+            color: #eb4d4b;
+            line-height: 2.2rem;
+        }
+    }
+}

@@ -1,0 +1,26 @@
+.DoctorDetails-container {
+    padding-top: 78px;
+    .DoctorDetails-des {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+        .DoctorDetails-hour {
+            padding: 1rem 0;
+        }
+    }
+    .DoctorDetails-blogger {
+        background-color: #f9f9f9;
+        padding-top: 2rem;
+        padding-bottom: 4rem;
+        font-size: 1.6rem;
+        line-height: 2.2rem;
+        letter-spacing: 0.02em;
+    }
+}
+
+.DoctorDetails__loading {
+    padding-top: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

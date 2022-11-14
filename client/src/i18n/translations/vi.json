@@ -1,0 +1,131 @@
+{
+    "homePage" : {
+        "specialist" : "Chuyên khoa",
+        "Specialist_sub" : "Tìm bác sĩ theo chuyên",
+        "health_facilities" : "Cơ sở y tế",
+        "health_facilities_sub" : "Chọn bệnh viện phòng khám",
+        "doctor" : "Bác sĩ",
+        "doctor_sub" : "Chọn bác sĩ giỏi",
+        "checkup_package" : "Gói khám",
+        "checkup_package_sub" : "Khám sức khoẻ tổng quát",
+        "support" : "Hỗ trợ",
+        "medical_background" : "NỀN TẢNG Y TẾ",
+        "medical_background_sub" : "Chăm sóc sức khoẻ toàn diện",
+        "find_specialty" : "Tìm Chuyên khoa",
+        "specialist_examination" : "Khám Chuyên khoa",
+        "remote_examination" : "Khám từ xa",
+        "general_examination" : "Khám tổng quát",
+        "medical_test" : "Xét nghiệm Y học",
+        "mental_health" : "Sức khoẻ tinh thần",
+        "dental_examination" : "Khám nha khoa",
+        "surgery_package" : "Gói phẩu thuật",
+        "medical_products" : "Sản phẩm Y tế",
+        "Corporate_health" : "Sức khoẻ doanh nghiệp",
+
+        "popular_specialties": "Chuyên khoa phổ biến",
+        "musculoskeletal": "Cơ Xương Khớp",
+        "nerve": "Thần kinh",
+        "digestion": "Tiêu hoá",
+        "heart": "Tim mạch",
+        "ear_nose_throat": "Tai mũi họng",
+        "spine": "Cột sống",
+        "traditional_medicine": "Y học cổ truyền",
+        "acupuncture": "Châm cứu",
+        "obstetrics_gynecology": "Sản phụ khoa",
+        "pregnancy_ultrasound": "Siêu âm thai",
+
+        "outstanding_medical_facility": "Cơ sở y tế nổi bật",
+        "famous_doctor": "Bác sĩ nổi bật tuần qua",
+        "doctorName": "BanhTheCake",
+        "mediaBookingCare": "Truyền thông nói về BookingCare"
+    },
+    "DoctorDetails": {
+        "calendar": "Lịch Khám",
+        "bookFree": "Chọn và đặt (Phí đặt lịch 0đ)",
+        "warning": "Lưu ý thường xảy ra tình trạng đông bệnh nhân vào một số thời điểm: 08:00 - 09:00, 08:30 - 09:30, 09:00 - 10:00, 09:30 - 10:30",
+        "Today": "Hôm nay"
+    },
+    "menu": {
+        "admin": {
+            "manage-user": "Người dùng",
+            "crud": "CRUD User",
+            "crud-redux": "CRUD Redux",
+            "manage-doctor": "Quản lý bác sĩ",
+            "manage-admin": "Quản lý admin",
+
+            "clinic": "Phòng khám",
+            "manage-clinic": "Quản lý phòng khám",
+
+            "specialty": "Chuyên khoa",
+            "manage-specialty": "Quản lý chuyên khoa",
+
+            "handbook": "Cẩm năng",
+            "manage-handbook": "Quản lý cẩm nang"
+        },
+        "doctor": {
+            "manage-schedule": "Quản lý phòng khám",
+            "manage-patient": "Quản lý bệnh nhân"
+        },
+        "Welcome": "Xin chào, "
+    },
+    "manage-user": {
+        "email": "Email",
+        "password": "Mật khẩu",
+        "firstName": "Tên",
+        "lastName": "Họ",
+        "phoneNumber": "Điện thoại",
+        "address": "Địa chỉ",
+        "gender": "Giới tính",
+        "roleId": "Vai trò",
+        "positionId": "Chức danh",
+        "submit": "Lưu"
+    },
+    "manage-doctor": {
+        "choose-doctor": "Chọn bác sĩ",
+        "btn": "Lưu thông tin",
+        "price": "Chọn giá",
+        "payment": "Chọn phương thức thanh toán",
+        "province": "Chọn thành phố",
+        "nameClinic": "Tên phòng khám",
+        "addressClinic": "Địa chỉ phòng khám",
+        "note": "Ghi chú",
+        "description": "Tiểu sử",
+        "blog": "Giới thiệu"
+    },
+    "error": {
+        "email-required": "Email không được để trống !",
+        "email-verify": "Email phải tồn tại !",
+        "password-required": "Mật khẩu không được để trống !",
+        "firstName-required": "Tên không được để trống !",
+        "lastName-required": "Họ không được để trống !",
+        "phoneNumber-required": "Số điện thoại không được để trống",
+        "address-required": "Địa chỉ không được để trống !",
+        "gender-required": "Giới tính không được để trống !",
+        "roleId-required": "Vai trò không được để trống !",
+        "positionId-required": "Chức danh không được để trống !",
+        "file-required": "File không được để trống !",
+        "price-required": "Thiếu trường giá tiền !",
+        "payment-required": "Thiếu trường thanh toán !",
+        "province-required": "Thiếu trường thành phố !",
+        "nameClinic-required": "Thiếu tên phòng khám !",
+        "addressClinic-required": "Thiếu trường địa chỉ !",
+        "description-required": "Thiếu tiểu sử !",
+        "blog-required": "Thiếu trường giới thiệu !",
+        "name-required": "Thiếu trường họ và tên !",
+        "method-required": "Thiếu trường lý do !",
+        "birthDay-required": "Thiếu trường ngày sinh !",
+        "nameSpecialties-required": "Tên chuyên khoa không được để trống !",
+        "markdownSpecialties-required": "Phần giới thiệu không được để trống !"
+    },
+    "table": {
+        "id": "Id",
+        "email": "Email",
+        "firstName": "Tên",
+        "address": "Địa chỉ",
+        "action": "Hành động",
+        "edit": "Chỉnh sửa",
+        "delete": "Xoá",
+        "gender": "Giới tính",
+        "timeType": "Thời gian"
+    }
+}

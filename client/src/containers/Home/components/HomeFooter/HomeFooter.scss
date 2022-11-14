@@ -1,0 +1,15 @@
+.home__footer {
+    display: flex;
+    padding: 2rem;
+    background-color: #64b9e5;
+    .footer-wrapper {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        font-size: 1.6rem;
+        color: whitesmoke;
+        font-weight: 500;
+        flex-wrap: wrap;
+    }
+}

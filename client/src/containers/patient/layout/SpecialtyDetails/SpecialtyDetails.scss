@@ -1,0 +1,66 @@
+.SpecialtyDetails-container {
+    padding-top: 78px;
+    .SpecialtyDetails-info {
+        padding: 3rem 0;
+    }
+    .SpecialtyDetails-doctors {
+        min-height: 500px;
+        background-color: #dfe6e9;
+        padding: 1rem 0;
+        padding-bottom: 4rem;
+        .SpecialtyDetails-select {
+            width: 250px;
+            padding-bottom: 1rem;
+            .input-select-vertical {
+                padding-left: 0;
+            }
+        }
+        .SpecialtyDetails-list {
+            // animation: fadeIn 0.5s linear;
+            .SpecialtyDetails-doctor {
+                background-color: white;
+                padding: 2rem;
+                display: flex;
+                border-radius: 10px;
+                box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+                min-height: 300px;
+                .SpecialtyDetails-doctor__left {
+                    flex: 1.2;
+                    border-right: 1px solid #ccc;
+                    padding-right: 1rem;
+                    & h3 {
+                        font-size: 2.2rem;
+                        margin-bottom: 0.6rem;
+                    }
+                    & p {
+                        font-size: 1.6rem;
+                    }
+                }
+                .SpecialtyDetails-doctor__right {
+                    flex: 1;
+                    padding-left: 2rem;
+                }
+                &:not(:last-child) {
+                    margin-bottom: 3rem;
+                }
+            }
+        }
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.specialtiesDetails__loading {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

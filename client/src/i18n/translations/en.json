@@ -1,0 +1,133 @@
+{
+    "homePage": {
+        "specialist": "specialist",
+        "Specialist_sub": "Find a doctor by specialty",
+        "health_facilities": "health facilities",
+        "health_facilities_sub": "Choose hospital clinic",
+        "doctor": "doctor",
+        "doctor_sub": "Choose a good doctor",
+        "checkup_package": "checkup package",
+        "checkup_package_sub": "General health check",
+        "support": "support",
+        "medical_background": "medical background",
+        "medical_background_sub": "Comprehensive health care",
+        "find_specialty": "find specialty",
+        "specialist_examination": "specialist examination",
+        "remote_examination": "remote examination",
+        "general_examination": "general examination",
+        "medical_test": "medical test",
+        "mental_health": "mental health",
+        "dental_examination": "dental examination",
+        "surgery_package": "surgery package",
+        "medical_products": "medical products",
+        "Corporate_health": "Corporate health",
+
+        "popular_specialties": "Popular specialties",
+        "musculoskeletal": "Musculoskeletal",
+        "nerve": "Nerve",
+        "digestion": "Digestion",
+        "heart": "Heart",
+        "ear_nose_throat": "Ear, nose and throat",
+        "spine": "Spine",
+        "traditional_medicine": "Traditional medicine",
+        "acupuncture": "Acupuncture",
+        "obstetrics_gynecology": "Obstetrics and Gynecology",
+        "pregnancy_ultrasound": "pregnancy ultrasound",
+
+        "outstanding_medical_facility": "Outstanding medical facility",
+        "famous_doctor": "Famous doctor through the week",
+        "doctorName": "BanhTheCake",
+        "mediaBookingCare": "Media talk about BookingCare"
+    },
+    "DoctorDetails": {
+        "calendar": "Calendar",
+        "bookFree": "Select and book (Scheduling fee 0 VND)",
+        "warning": "Note that often crowded patients at some times: 08:00 - 09:00, 08:30 - 09:30, 09:00 - 10:00, 09:30 - 10:30",
+        "Today": "Today"
+    },
+    "menu": {
+        "admin": {
+            "manage-user": "User System",
+            "crud": "CRUD User",
+            "crud-redux": "CRUD Redux",
+            "manage-doctor": "Manage Doctor",
+            "manage-admin": "Manage Admin",
+
+            "clinic": "Clinic",
+            "manage-clinic": "Manage Clinic",
+
+            "specialty": "Specialty",
+            "manage-specialty": "Manage Specialty",
+
+            "handbook": "Handbook",
+            "manage-handbook": "Manage Handbook"
+        },
+        "doctor": {
+            "manage-schedule": "Manage schedule",
+            "manage-patient": "Manage patient"
+        },
+        "Welcome": "Welcome, "
+    },
+    "manage-user": {
+        "email": "Email",
+        "password": "Password",
+        "firstName": "First Name",
+        "lastName": "Last Name",
+        "phoneNumber": "Phone number",
+        "address": "Address",
+        "gender": "Gender",
+        "roleId": "Role",
+        "positionId": "Position",
+        "submit": "Submit"
+    },
+    "manage-doctor": {
+        "choose-doctor": "Choose doctor",
+        "btn": "Save",
+        "price": "Choose price",
+        "payment": "choose payment",
+        "province": "Choose province",
+        "nameClinic": "Name clinic",
+        "addressClinic": "Address clinic",
+        "note": "Note",
+        "addressClinicRequire": "Required address clinic",
+        "description": "Description",
+        "blog": "Introduction"
+    },
+    "error": {
+        "email-required": "Email must be required !",
+        "email-verify": "Email must be exist!",
+        "password-required": "Password must be required !",
+        "firstName-required": "First name must be required !",
+        "lastName-required": "Last name must be required !",
+        "phoneNumber-required": "Phone number must be required",
+        "address-required": "Address must be required !",
+        "gender-required": "Gender must be required !",
+        "roleId-required": "Role must be required !",
+        "positionId-required": "Position must be required !",
+        "file-required": "File must be required !",
+        "price-required": "Required price !",
+        "payment-required": "Required payment !",
+        "province-required": "Required province !",
+        "nameClinic-required": "Required name clinic !",
+        "addressClinic-required": "Required address clinic !",
+        "description-required": "Required description !",
+        "blog-required": "Required Introduction !",
+        "name-required": "Required name !",
+        "method-required": "Required method !",
+        "birthDay-required": "Required birthday !",
+        "nameSpecialties-required": "Name specialties must be required !",
+        "markdownSpecialties-required": "Introduction specialties must be required !"
+    },
+    
+    "table": {
+        "id": "Id",
+        "email": "Email",
+        "firstName": "First name",
+        "address": "Address",
+        "action": "Action",
+        "edit": "Edit",
+        "delete": "Delete",
+        "gender": "Gender",
+        "timeType": "Time type"
+    }
+}

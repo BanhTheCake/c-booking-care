@@ -1,0 +1,42 @@
+.MarkdownMDEditor {
+    overflow: hidden;
+    .MDEditor {
+        display: flex;
+        flex-direction: column;
+        font-family: inherit;
+        p {
+            margin-bottom: 0rem !important;
+            margin-top: 0rem !important;
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                margin: 1rem 0;
+                border-radius: 4px;
+            }
+        }
+        ul,
+        ol {
+            display: flex;
+            flex-direction: column;
+            list-style-type: disc !important;
+            margin-top: 1rem !important;
+            margin-bottom: 1rem !important;
+        }
+    }
+}
+
+.MarkdownMDEditor-btnShow {
+    font-size: 1.6rem;
+    padding: 1rem 1rem;
+    padding-left: 0rem;
+    color: #0984e3;
+    cursor: pointer;
+    font-weight: 500;
+    width: fit-content;
+    transition: all 0.2s ease;
+    user-select: none;
+    &:hover {
+        opacity: 0.6;
+    }
+}

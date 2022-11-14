@@ -1,0 +1,41 @@
+.login-container {
+    background-color: #6c5ce7;
+    height: 100vh;
+    .login-wrapper {
+        display: flex;
+        height: 100%;
+        .form {
+            margin: auto;
+            background-color: white;
+            padding: 2rem;
+            border-radius: 10px;
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+            max-width: 100%;
+            .form-item {
+                width: 380px;
+                max-width: 100%;
+                margin-bottom: 1.2rem;
+            }
+            .form-btn {
+                display: flex;
+                width: 100%;
+                padding: 1rem 1rem;
+                justify-content: center;
+                font-size: 1.6rem;
+                border: 1px solid #2d3436;
+                border-radius: 4px;
+                cursor: pointer;
+                font-family: inherit;
+                background-color: #2d3436;
+                font-weight: 500;
+                color: white;
+                opacity: 0.9;
+                user-select: none;
+                transition: all 0.15s ease;
+                &:hover {
+                    opacity: 1;
+                }
+            }
+        }
+    }
+}

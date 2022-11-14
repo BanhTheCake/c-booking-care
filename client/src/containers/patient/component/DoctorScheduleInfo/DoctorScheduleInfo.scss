@@ -1,0 +1,74 @@
+.DoctorScheduleInfo__content {
+    font-weight: 500;
+    line-height: 2.6rem;
+    .DoctorScheduleInfo__label {
+        font-weight: 600;
+    }
+    .DoctorScheduleInfo__address {
+        padding-bottom: 0.6rem;
+        border-bottom: 1px solid #ccc;
+    }
+    .DoctorScheduleInfo__price {
+        padding-top: 0.6rem;
+        span {
+            &:first-child {
+                font-weight: 600;
+            }
+            &:nth-child(2) {
+                font-weight: normal;
+                padding: 0 0.6rem;
+            }
+            &:nth-child(3) {
+                color: #0984e3;
+                cursor: pointer;
+                user-select: none;
+                transition: all 0.1s ease;
+                &:hover {
+                    opacity: 0.6;
+                }
+            }
+        }
+    }
+    .DoctorScheduleInfo__price-more {
+        padding-top: 0.6rem;
+        .DoctorScheduleInfo__price-more-title {
+            font-weight: 600;
+        }
+        .DoctorScheduleInfo__price-box-wrapper {
+            overflow: hidden;
+            transform-origin: top;
+            animation: fadeIn 0.5s ease forwards;
+            .DoctorScheduleInfo__price-box {
+                border: 1px solid #ccc;
+                margin-top: 0.6rem;
+                margin-bottom: 0.6rem;
+                .DoctorScheduleInfo__price-up {
+                    background-color: #dfe6e9;
+                    padding: 0.6rem 1rem;
+                    border-bottom: 1px solid #ccc;
+                    .DoctorScheduleInfo__price-title {
+                        display: flex;
+                        justify-content: space-between;
+                    }
+                    .DoctorScheduleInfo__price-note {
+                        font-weight: normal;
+                        font-size: 1.5rem;
+                    }
+                }
+                .DoctorScheduleInfo__price-down {
+                    background-color: #b2bec3a2;
+                    padding: 0.6rem 1rem;
+                }
+            }
+        }
+        .DoctorScheduleInfo__price-more-off {
+            color: #0984e3;
+            cursor: pointer;
+            user-select: none;
+            transition: all 0.1s ease;
+            &:hover {
+                opacity: 0.6;
+            }
+        }
+    }
+}

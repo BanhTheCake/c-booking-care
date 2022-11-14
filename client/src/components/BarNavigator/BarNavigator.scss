@@ -1,0 +1,76 @@
+.bar-navigator {
+    display: flex;
+    height: 100%;
+    border-left: 0.8px solid white;
+    .bar-navigator-item {
+        display: flex;
+        align-items: center;
+        height: 100%;
+        padding: 0 1rem;
+        box-shadow: 0.8px 0px 0px 0px white;
+        font-size: 1.4rem;
+        font-weight: 500;
+        color: white;
+        cursor: pointer;
+        position: relative;
+        z-index: 99;
+        .bar-navigator-item__menus,
+        .bar-navigator-item__subMenus {
+            position: absolute;
+            min-width: 160px;
+            white-space: nowrap;
+            width: fit-content;
+            background: #ecf0f1;
+            border: 0.8px solid black;
+            border-top: transparent;
+            opacity: 0;
+            visibility: hidden;
+            transition: all 0.05s ease;
+            color: black;
+            z-index: 99;
+        }
+        .bar-navigator-item__menus {
+            top: 100%;
+            left: 0;
+            .bar-navigator-item__menus-item {
+                a {
+                    display: block;
+                    text-decoration: none;
+                    color: inherit;
+                    & > p {
+                        padding: 1rem 1rem;
+                        box-shadow: 0.8px 0.8px 0px 0px black;
+                        transition: all 0.15s ease;
+                    }
+                    &.active {
+                        & > p {
+                            background-color: #34495e;
+                            color: white;
+                        }
+                    }
+                    &:hover {
+                        & > p {
+                            opacity: 0.8;
+                        }
+                    }
+                }
+                &:hover {
+                    & > .bar-navigator-item__subMenus {
+                        opacity: 1;
+                        visibility: visible;
+                    }
+                }
+            }
+            .bar-navigator-item__subMenus {
+                top: 0;
+                left: 100%;
+            }
+        }
+        &:hover {
+            & > .bar-navigator-item__menus {
+                opacity: 1;
+                visibility: visible;
+            }
+        }
+    }
+}

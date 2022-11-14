@@ -1,0 +1,50 @@
+.input-dayPicker {
+    width: 100%;
+    padding: 0.6rem 1rem;
+    position: relative;
+    .input-dayPicker__container {
+        display: flex;
+        input {
+            flex: 1;
+            width: 100%;
+            outline: none;
+            border: 1px solid #2d3436;
+            padding: 0.8rem 1rem;
+            border-radius: 2px;
+            font-size: 1.6rem;
+            font-family: inherit;
+            font-weight: 500;
+            text-overflow: ellipsis;
+            min-width: 200px;
+            cursor: pointer;
+        }
+        .btn-dayPicker {
+            font-size: 2.6rem;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            padding: 0 0.4rem;
+            border-radius: 2px;
+            margin-left: 1rem;
+            user-select: none;
+            transition: all 0.1s ease;
+            &:hover {
+                opacity: 0.6;
+            }
+        }
+    }
+    .modal-dayPicker {
+        font-size: 1.6rem;
+        position: absolute;
+        top: 100%;
+        right: 0;
+        padding: 0.6rem 1rem;
+        border-radius: 4px;
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+        background-color: white;
+        .rdp-day_selected {
+            background-color: #ee5253;
+        }
+    }
+}

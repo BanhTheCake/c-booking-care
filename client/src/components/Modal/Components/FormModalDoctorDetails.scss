@@ -1,0 +1,71 @@
+.ModalDoctorDetails-container {
+    font-size: 1.6rem;
+    .ModalDoctorDetails-info {
+        padding: 0.6rem 1rem;
+        padding-top: 0;
+        padding-bottom: 1.4rem;
+        .ModalDoctorDetails-time {
+            padding-left: 0.4rem;
+            p {
+                text-transform: capitalize;
+                font-weight: 500;
+                letter-spacing: 0.02em;
+                color: rgb(67, 66, 66);
+                &:not(:last-child) {
+                    padding-bottom: 0.4rem;
+                }
+            }
+        }
+    }
+    .ModalDoctorDetails-hour,
+    .ModalDoctorDetails-price {
+        padding: 0.2rem 1rem;
+        span {
+            &:first-child {
+                display: inline-flex;
+                padding-right: 0.6rem;
+                width: 100px;
+                font-weight: 500;
+            }
+        }
+    }
+    .ModalDoctorDetails-form {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        padding-bottom: 1rem;
+        .col-1 {
+            grid-column: span 1;
+        }
+        .col-2 {
+            grid-column: span 2;
+        }
+        .ModalDoctorDetails-btnGroup {
+            padding: 0.6rem 1rem;
+            display: flex;
+            justify-content: flex-end;
+            gap: 1rem;
+            & > button {
+                font-family: inherit;
+                font-size: 1.6rem;
+                padding: 0.8rem 1.6rem;
+                outline: none;
+                border: none;
+                border-radius: 4px;
+                transition: all 0.2s ease;
+                cursor: pointer;
+                font-weight: 500;
+                &:hover {
+                    opacity: 0.6;
+                }
+                &.btn-blue {
+                    background-color: #3498db;
+                    color: white;
+                }
+                &.btn-red {
+                    background-color: #e74c3c;
+                    color: white;
+                }
+            }
+        }
+    }
+}
